@@ -9,10 +9,12 @@ border-width: 1px;
 border-radius: 10% / 7%;;
 box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 z-index: 100;
-background-color: white;
+background: linear-gradient(#fffdf7, #f5f3eb);
+color: green;
+transform: scale(0.3);
 }
 
-.clubs_main_suit {
+.card .clubs_main_suit {
 display: absolute;
 position: absolute;
 text-align: center;
@@ -22,10 +24,9 @@ height: 80%;
 width: 80%;
 font-family: "Lucida Sans"; 
 font-size: 30vw;
-color: green;
 }
 
-.clubs_left_suit {
+.card .clubs_left_suit {
 display: absolute;
 position: absolute;
 text-align: center;
@@ -37,10 +38,9 @@ font-family: "Lucida Sans";
 font-size: 7vw;
 line-height: 5.5vw;
 letter-spacing: -1.5vw;
-color: green;
 }
 
-.clubs_right_suit {
+.card .clubs_right_suit {
 display: absolute;
 position: absolute;
 text-align: center;
@@ -52,6 +52,5 @@ font-family: "Lucida Sans";
 font-size: 7vw;
 line-height: 5.5vw;
 letter-spacing: -1.5vw;
-color: green;
 transform: scale(-1, -1);
 }
