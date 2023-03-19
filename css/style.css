@@ -1,6 +1,4 @@
 .card {
-position: absolute;
-display: inline-block;
 border-radius: 5%;
 height: 50vw;
 aspect-ratio: 0.7;
@@ -12,7 +10,8 @@ z-index: 100;
 background: linear-gradient(#fffdf7, #f5f3eb);
 color: var(--suit_color);
 border-color: black;
-transform: scale(0.3);
+transform: scale(0.4);
+float: left;
 }
 
 .card .main_suit {

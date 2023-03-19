@@ -10,7 +10,6 @@ class Card {
     this.face = face;
 
     const parent_element = document.getElementById(this.parent_id);
-    parent_element.innerHTML='registered'
     
     const card = document.createElement("div");
     card.setAttribute("id", card_id);
