@@ -1,5 +1,6 @@
 function add_card(suit, value, card_id, parent_id) {
-  const suit_dict = {'s': '♠', 'd': '♦', 'c': '♣', 'h': '♥'}
+  // const suit_dict = {'s': '♠', 'd': '♦', 'c': '♣', 'h': '♥'}
+  const suit_dict = {'s': '\u2660', 'd': '\u2666', 'c': '\u2663', 'h': '\u2665'}
   const color_dict = {'s': 'black', 'd': 'blue', 'c': 'green', 'h': 'red'}
   const color = "green"
   const parent_element = document.getElementById(parent_id);
@@ -28,7 +29,6 @@ function add_card(suit, value, card_id, parent_id) {
   parent_element.appendChild(card)
 }
 
-// add_card(suit='h', value='K', card_id="hole1", parent_id="container")
 
 
 
