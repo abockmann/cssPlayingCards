@@ -6,6 +6,8 @@
   flex-direction: row;
   justify-content: center;
   gap: 0.5%;
+  transform: scale(1.0);
+  transform-origin: top left;
 }
 
 
